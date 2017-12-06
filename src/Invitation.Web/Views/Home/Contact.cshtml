@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="text-center">
+    <p>@ViewData["Message"]</p>
+    <h4>Jako kontakt na tebe/vas mame: </h4>
+    <br/>
+
+    <table style="margin: 0 auto;">
+        <tr>
+            <td>
+                <div class="text-right tdFirst"><h5>email:</h5>
+                </div></td>
+            <td>
+                <div class="text-left tdSecond"><h5><strong>@Model.Email</strong></h5>
+                </div></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="text-right tdFirst"><h5>telefon:</h5>
+                </div></td>
+            <td>
+                <div class="text-left tdSecond"><h5><strong>@Model.Number</strong></h5>
+                </div></td>
+        </tr>
+    </table>
+
+    <br/>
+
+
+
+    <h5>pokud udaj nesedi prosime oprav ho. </h5>
+    <br/>
+
+    <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="EditContact">Upravit</a>
+    <a class="btn btn-danger btn-lg" asp-controller="Home" asp-action="WantProgram">Vsechno sedí</a>
+</div>

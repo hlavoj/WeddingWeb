@@ -1,0 +1,133 @@
+/* Custom Stylesheet */
+
+.program {
+	font-weight: 100;
+	line-height: 2.5rem;
+ }
+
+ 
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.border{
+	border:7px solid #FFF;
+}
+
+.introMy{
+	font-weight: 300;
+}
+
+
+
+
+.flow-text2 {
+  font-weight: 300; }
+  @media only screen and (min-width: 360px) {
+    .flow-text2 {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 450px) {
+    .flow-text2 {
+      font-size: 1.272rem; } }
+  @media only screen and (min-width: 540px) {
+    .flow-text2 {
+      font-size: 1.344rem; } }
+  @media only screen and (min-width: 720px) {
+    .flow-text2 {
+      font-size: 1.488rem; } }
+  @media only screen and (min-width: 900px) {
+    .flow-text2 {
+      font-size: 1.632rem; } }
+  @media only screen and (min-width: 1190px) {
+    .flow-text2 {
+      font-size: 1.656rem; } }
+  @media only screen and (min-width: 1380px) {
+    .flow-text2 {
+      font-size: 1.68rem; } }
+  @media only screen and (max-width: 360px) {
+    .flow-text2 {
+      font-size: 1.2rem; } }
+	  
+
+.flow-text3 {
+   }
+  @media only screen and (min-width: 360px) {
+    .flow-text3 {
+      font-size: 1.3rem; } }
+  @media only screen and (min-width: 450px) {
+    .flow-text3 {
+      font-size: 1.472rem; } }
+  @media only screen and (min-width: 540px) {
+    .flow-text3 {
+      font-size: 1.544rem; } }
+  @media only screen and (min-width: 720px) {
+    .flow-text3 {
+      font-size: 1.588rem; } }
+  @media only screen and (min-width: 900px) {
+    .flow-text3 {
+      font-size: 1.732rem; } }
+  @media only screen and (min-width: 1190px) {
+    .flow-text3 {
+      font-size: 1.756rem; } }
+  @media only screen and (min-width: 1380px) {
+    .flow-text3 {
+      font-size: 1.78rem; } }
+  @media only screen and (max-width: 360px) {
+    .flow-text3 {
+      font-size: 1.3rem; } }
+	  
+
+.flow-text4 {
+  font-weight: 200; }
+  @media only screen and (min-width: 360px) {
+    .flow-text4 {
+      font-size: 2.2rem; } }
+  @media only screen and (min-width: 450px) {
+    .flow-text4 {
+      font-size: 2.6rem; } }
+  @media only screen and (min-width: 540px) {
+    .flow-text4 {
+      font-size: 3.5rem; } }
+  @media only screen and (min-width: 720px) {
+    .flow-text4 {
+      font-size: 4.5rem; } }
+  @media only screen and (min-width: 900px) {
+    .flow-text4 {
+      font-size: 5.5rem; } }
+  @media only screen and (min-width: 1190px) {
+    .flow-text4 {
+      font-size: 6.0rem; } }
+  @media only screen and (min-width: 1380px) {
+    .flow-text4 {
+      font-size: 6.5rem; } }
+  @media only screen and (max-width: 360px) {
+    .flow-text4 {
+      font-size: 2.2rem; } }
+	  
+	  
+.flow-top {
+  font-weight: 200; }
+  @media only screen and (min-width: 360px) {
+    .flow-top {
+      padding-top: 1%; margin-top: 1%; min-height: 100px; } }
+  @media only screen and (min-width: 450px) {
+    .flow-top {
+     padding-top: 3%; margin-top: 3%;  min-height: 150px; } }
+  @media only screen and (min-width: 540px) {
+    .flow-top {
+      padding-top: 6%;   min-height: 200px;} }
+  @media only screen and (min-width: 720px) {
+    .flow-top {
+      padding-top: 6%;   min-height: 250px;} }
+  @media only screen and (min-width: 900px) {
+    .flow-top {
+      padding-top: 6%; min-height: 350px; } }
+  @media only screen and (min-width: 1190px) {
+    .flow-top {
+      padding-top: 6%;  min-height: 450px;} }
+  @media only screen and (min-width: 1380px) {
+    .flow-top {
+      padding-top: 6%;  min-height: 550px; } }
+  @media only screen and (max-width: 360px) {
+    .flow-top {
+      padding-top: 1%;  min-height: 100px; } }

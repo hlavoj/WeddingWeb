@@ -1,0 +1,10 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "bootswatch": "v3.3.7"
+  },
+  "resolutions": {
+    "materialize": "v0.100.2"
+  }
+}

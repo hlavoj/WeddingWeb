@@ -1,0 +1,38 @@
+﻿html {
+    height: 100%;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    background-image: url(../images/a1.jpg);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.tdFirst {
+    
+}
+
+.tdSecond {
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+label  {
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 8px;
+}

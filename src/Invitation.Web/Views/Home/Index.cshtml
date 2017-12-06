@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h3>@Model.FirstLine</h3>
+    <br>
+    <h4>@Model.SecondLine</h4>
+    <br>
+    <h4>Svatba se koná 16.6.2018 v 13:00 v Strážovicích.</h4>
+
+
+    <br/>
+    <a class="btn btn-default" asp-controller="Home" asp-action="MissYou">Nemohu se zucastnit</a>
+    <a class="btn btn-danger btn-lg " asp-controller="Home" asp-action="Contact">Zůčastním se</a>
+</div>
